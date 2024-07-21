@@ -1,0 +1,292 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.curve-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.curve-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.emoji {
+    font-size: 2em;
+    margin-top: -10px;
+}
+
+.yellow-text {
+    color: goldenrod;
+}
+
+.light-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: goldenrod;
+}
+
+#about-me {
+    background-color: #222;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#about-me h2 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Your Professional Font', sans-serif;
+}
+
+.subheading {
+    color: goldenrod;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.about-text {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Your Professional Font', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-heading {
+    font-size: 24px;
+    margin-top: 20px;
+    color: goldenrod;
+}
+
+.section-heading {
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.section-symbol {
+    font-size: 36px;
+    color: goldenrod;
+}
+
+.section-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.centered-section-container {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .curve-container {
+        padding: 10px;
+    }
+
+    .profile-pic {
+        width: 150px;
+    }
+
+    .main-container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact-container {
+        background-color: #222;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: goldenrod;
+    }
+
+    .contact-link {
+        text-decoration: none;
+        color: white;
+        margin: 10px 0;
+        transition: color 0.3s;
+    }
+
+    .contact-link:hover {
+        color: yellow;
+    }
+
+    .contact-social {
+        margin-top: 10px;
+    }
+
+    .contact-social a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
+
+    .contact-social a:hover {
+        color: yellow;
+    }
+
+    .contact-icon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: goldenrod;
+    }
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 40px;
+}
+
+.contact-heading {
+    font-size: 36px;
+    color: white;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-option {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-option a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 36px;
+    margin: 0 10px;
+    color: white;
+}
+
+.navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar img {
+    max-width: 100%;
+    height: auto;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar a:hover img {
+    transform: scale(1.2);
+}

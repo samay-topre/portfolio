@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-container {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 40px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-heading {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: goldenrod;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: goldenrod;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: goldenrod;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>My Portfolio</h1>
+    <div class="curve-container">
+        <img src="image/profile.jpg" alt="Profile Photo" class="profile-pic">
+        <p>Hi<span class="emoji">👋</span>I am Samay Topre</p>
+        <p class="yellow-text">CSE Undergrad | Competitive Programmer</p>
+        <p style="letter-spacing: 2px; opacity: 0.6;" class="light-text">As a passionate problem solver with in-depth
+            knowledge of data structures and algorithms, I'm always seeking opportunities to apply my skills to
+            real-world challenges.</p>
+
+        <div class="button-container">
+            <a href="profile.html" class="button" target="_blank">Coding Profile</a>
+            <a href="https://www.linkedin.com/in/samay-topre-66a29a213" class="button" target="_blank">LinkedIn
+                Profile</a>
+            <a href="https://github.com/samay-topre" class="button" target="_blank">Github</a>
+            <a href="Projects.html" class="button" target="_blank">Projects</a>
+        </div>
+    </div>
+
+    <section id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="subheading">CSE | Undergrad | Web Developer | Competitive Programmer</p>
+            <p class="about-text">
+                Hi<span class="emoji">👋</span>I am Samay Topre
+            </p>
+            <p style="letter-spacing: 2px; opacity: 0.6;" class="light-text">I am an undergraduate student at
+                Yeshwantrao Chavan College of Engineering. As a passionate problem solver with in-depth knowledge of
+                data structures and algorithms, I'm always seeking opportunities to apply my skills to real-world
+                challenges. I'm proficient in C++ and have a good understanding of Java, Python, and frameworks like
+                Bootstrap and Django. Currently, I'm focusing on mastering full-stack web development and also improving
+                my competitive coding.</p>
+            </p>
+            <div class="buttons">
+                <a href="certificates.html" target="_blank" class="button">Experience And Credentials</a>
+                <!-- Updated Resume link with download attribute -->
+                <a href="samay resume.pdf" download class="button">Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="centered-section-container">
+        <div class="container">
+            <img src="image/profile.jpg" alt="Profile Photo" class="profile-pic">
+            <h1 class="profile-heading">What I Am Doing</h1>
+            <div class="section-container">
+                <p class="section-symbol">📚</p>
+                <h2 class="section-heading" style="opacity: 0.9;">DSA</h2>
+                <p class="section-description" style=" text-align: center; opacity: 0.6;">Solving Complex Data Structure
+                    and Algorithm problems.Solving problem on leetcode,gfg,codechef.</p>
+            </div>
+            <div class="section-container">
+                <p class="section-symbol">💻</p>
+                <h2 class="section-heading" style="opacity: 0.9;">Web Development</h2>
+                <p class="section-description" style=" opacity: 0.6; text-align: center;">Learning and implementing new
+                    technologies in web development</p>
+            </div>
+            <div class="section-container">
+                <p class="section-symbol">🌐</p>
+                <h2 class="section-heading" style="opacity: 0.9;">Exploring</h2>
+                <p class="section-description" style=" text-align: center; opacity: 0.6;">"As a computer science
+                    enthusiast, I thrive on exploring the uncharted realms of technology to uncover innovative solutions."
+                </p>
+            </div>
+            <div class="button-container">
+                <a href="#about-me" class="button">About</a>
+                <!-- Updated Resume link with download attribute -->
+                <a href="samay resume.pdf" download class="button">Resume</a>
+                <a href="certificates.html" target="_blank" class="button">Certifications</a>
+            </div>
+        </div>
+    </div>
+
+    <div  style="margin-top: 10px;" class="contact-container">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/mrbzegrl"
+            method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="profile-container">
+            <div class="navbar">
+                <a href="https://instagram.com/samaytopre03?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <img src="image/insta.avif" alt="Instagram">
+                </a>
+                <a href="https://wa.me/918010297771" target="_blank">
+                    <img src="image/download (2).jpeg" alt="Snapchat">
+                </a>
+                <a href="https://www.linkedin.com/in/samay-topre-66a29a213" target="_blank">
+                    <img src="image/link.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
